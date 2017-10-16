@@ -1,0 +1,1137 @@
+{
+  "machines": [
+    {
+      "name": "Treadmill",
+      "type": "cardio",
+      "muscleGroup": "fullbody",
+      "brand": "Freemotion",
+      "incline": {
+        "min": -3,
+        "max": 30,
+        "step": 0.5
+      },
+      "resistance": {
+        "min": 0.5,
+        "max": 12,
+        "step": 0.1
+      }
+    },
+    {
+      "name": "Treadmill",
+      "type": "cardio",
+      "muscleGroup": "fullbody",
+      "brand": "Precor",
+      "incline": {
+        "min": 0,
+        "max": 15,
+        "step": 0.5
+      },
+      "resistance": {
+        "min": 0.5,
+        "max": 16,
+        "step": 0.1
+      }
+    },
+    {
+      "name": "Elliptical",
+      "type": "cardio",
+      "muscleGroup": "fullbody",
+      "brand": "Precor",
+      "productLine": "EFX",
+      "incline": {
+        "min": 1,
+        "max": 20,
+        "step": 1
+      },
+      "resistance": {
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    },
+    {
+      "name": "Stair Stepper",
+      "type": "cardio",
+      "muscleGroup": "fullbody",
+      "brand": "Stair Master",
+      "level": {
+        "min": 1,
+        "max": 20,
+        "step": 1
+      }
+    },
+    {
+      "name": "Stationary Bike, recumbant",
+      "type": "cardio",
+      "muscleGroup": "fullbody",
+      "brand": "Life Fitness",
+      "seat": {
+        "min": 1,
+        "max": 38,
+        "step": 1
+      },
+      "level": {
+        "min": 1,
+        "max": 25,
+        "step": 1
+      }
+    },
+    {
+      "name": "Stationary Bike, upright",
+      "type": "cardio",
+      "muscleGroup": "fullbody",
+      "brand": "Life Fitness",
+      "seatHeight": {
+        "min": 1,
+        "max": 40,
+        "step": 1
+      }
+    },
+    {
+      "name": "Abs",
+      "type": "strength",
+      "muscleGroup": "abs",
+      "brand": "Hoist"
+    },
+    {
+      "name": "Bench Press, barbell",
+      "type": "strength",
+      "muscleGroup": [
+        "chest",
+        "triceps"
+      ],
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "barbell",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Bench Press, dumbell",
+      "type": "strength",
+      "muscleGroup": [
+        "chest",
+        "triceps"
+      ],
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "dumbell",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Bicep Curl",
+      "type": "strength",
+      "muscleGroup": "biceps",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          35,
+          40,
+          45,
+          54,
+          62,
+          70,
+          77,
+          85,
+          88,
+          93,
+          97,
+          101,
+          106,
+          110,
+          114,
+          118,
+          122,
+          126
+        ]
+      }
+    },
+    {
+      "name": "Calf Raise, standing",
+      "type": "strength",
+      "muscleGroup": "calves",
+      "brand": "unknown",
+      "shoulderPad": {
+        "min": 1,
+        "max": 9,
+        "step": 1
+      },
+      "weightStack": {
+        "min": 20,
+        "max": 300,
+        "step": 20,
+        "type": "standard",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Chest Press",
+      "type": "strength",
+      "muscleGroup": "chest",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "seatHeight": {
+        "min": 1,
+        "max": 7,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          50,
+          65,
+          75,
+          100,
+          115,
+          135,
+          145,
+          160,
+          175,
+          190,
+          205,
+          220,
+          235,
+          250,
+          265,
+          280,
+          295,
+          310
+        ]
+      }
+    },
+    {
+      "name": "Super Incline Press, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": ["upper chest", "deltoids"],
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Bench Press, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": "chest",
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Decline Press, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": "lower chest",
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Front Military Press, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": ["chest", "deltoids"],
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Seated/Standing Shrug, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": "traps",
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Front Lat Pulldown, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": "lats",
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Row, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": "back",
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "High Row, Iso-Lateral",
+      "type": "strength",
+      "muscleGroup": ["lats", "middle back", "upper back"],
+      "brand": "Hammer strength",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Chest Press, Vertical",
+      "type": "strength",
+      "muscleGroup": "chest",
+      "brand": "Nautilus",
+      "productLine": "Nitro",
+      "seatHeight": {
+        "min": 1,
+        "max": 11,
+        "step": 1
+      },
+      "seatBack": {
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      "weightStack": {
+        "min": 20,
+        "max": 170,
+        "step": 10,
+        "type": "standard",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Dumbell Exercise, custom",
+      "type": "free_weights",
+      "muscleGroup": "multiple",
+      "weightType": "dumbell"
+    },
+    {
+      "name": "Kettlebell Exercise, custom",
+      "type": "free_weights",
+      "muscleGroup": "multiple",
+      "weightType": "kettlebell"
+    },
+    {
+      "name": "Barbell Exercise, custom",
+      "type": "free_weights",
+      "muscleGroup": "multiple",
+      "weightType": "barbell"
+    },
+    {
+      "name": "Lat Pulldown",
+      "type": "strength",
+      "muscleGroup": "lats",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "thighPad": {
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          38,
+          48,
+          57,
+          72,
+          86,
+          99,
+          113,
+          126,
+          136,
+          146,
+          156,
+          167,
+          177,
+          189,
+          201,
+          213,
+          225,
+          237
+        ]
+      }
+    },
+    {
+      "name": "Leg Abduction (Outer)",
+      "type": "strength",
+      "muscleGroup": "hip abductors",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          5,
+          11,
+          17,
+          22,
+          28,
+          34,
+          39,
+          45,
+          50,
+          56,
+          62,
+          67,
+          73,
+          79,
+          84,
+          90,
+          95,
+          101
+        ]
+      }
+    },
+    {
+      "name": "Leg Adduction (Inner)",
+      "type": "strength",
+      "muscleGroup": "leg adductors",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          7,
+          15,
+          22,
+          30,
+          37,
+          45,
+          52,
+          60,
+          67,
+          75,
+          82,
+          90,
+          97,
+          105,
+          112,
+          120,
+          127,
+          135
+        ]
+      }
+    },
+    {
+      "name": "Leg Curl",
+      "type": "strength",
+      "muscleGroup": "hamstrings",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "shinPad": {
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      "seatBack": {
+        "min": 1,
+        "max": 7,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          33,
+          47,
+          60,
+          79,
+          97,
+          115,
+          133,
+          152,
+          167,
+          183,
+          199,
+          214,
+          230,
+          246,
+          262,
+          278,
+          294,
+          310
+        ]
+      }
+    },
+    {
+      "name": "Leg Curl",
+      "type": "strength",
+      "muscleGroup": "Hamstrings",
+      "brand": "Nautilus",
+      "anklePad": [
+        "S",
+        "M",
+        "L"
+      ],
+      "seatBack": {
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      "weightStack": {
+        "min": 20,
+        "max": 140,
+        "step": 10,
+        "type": "standard",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Leg Extension",
+      "type": "strength",
+      "muscleGroup": "quads",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "seatBack": {
+        "min": 1,
+        "max": 7,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          36,
+          44,
+          52,
+          66,
+          78,
+          91,
+          102,
+          115,
+          126,
+          138,
+          149,
+          161,
+          173,
+          184,
+          195,
+          206,
+          217,
+          228
+        ]
+      }
+    },
+    {
+      "name": "Leg Press",
+      "type": "strength",
+      "muscleGroup": ["quads","hamstrings", "glutes"],
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "seat": {
+          "min": 1,
+          "max": 11,
+          "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          35,
+          51,
+          67,
+          83,
+          99,
+          115,
+          131,
+          147,
+          163,
+          179,
+          195,
+          211,
+          227,
+          243,
+          259,
+          275,
+          291,
+          307
+        ]
+      }
+    },
+    {
+      "name": "Leg Press",
+      "type": "strength",
+      "muscleGroup": ["quads","hamstrings", "glutes"],
+      "brand": "Icarian",
+      "weightStack": {
+        "min": 20,
+        "max": 400,
+        "step": 20,
+        "type": "standard",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Leg Press",
+      "type": "strength",
+      "muscleGroup": ["quads","hamstrings", "glutes"],
+      "brand": "Nautilus",
+      "seat": {
+          "min": 1,
+          "max": 15,
+          "step": 1
+      },
+      "seatBack": {
+          "min": 1,
+          "max": 5,
+          "step": 1
+      },
+      "weightStack": {
+        "min": 35,
+        "max": 365,
+        "step": 15,
+        "type": "standard",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Overhead Press",
+      "type": "strength",
+      "muscleGroup": [
+        "deltoids",
+        "upper traps",
+        "triceps"
+      ],
+      "brand": "Nautilus",
+      "seatHeight": {
+        "min": 1,
+        "max": 11,
+        "step": 1
+      },
+      "weightStack": {
+        "min": 20,
+        "max": 170,
+        "step": 10,
+        "type": "standard",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Shoulder Press",
+      "type": "strength",
+      "muscleGroup": "deltoids",
+      "brand": "Hoist",
+      "seat": {
+        "min": 1,
+        "max": 7,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          45,
+          49,
+          55,
+          62,
+          69,
+          76,
+          83,
+          90,
+          97,
+          104,
+          111,
+          118,
+          125,
+          132,
+          139,
+          146,
+          153,
+          160
+        ]
+      }
+    },
+    {
+      "name": "Seated Dip",
+      "type": "strength",
+      "muscleGroup": "triceps",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "seatHeight": {
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          36,
+          47,
+          58,
+          75,
+          91,
+          106,
+          121,
+          137,
+          151,
+          165,
+          180,
+          195,
+          209,
+          223,
+          237,
+          251,
+          265,
+          279
+        ]
+      }
+    },
+    {
+      "name": "Seated Mid Row",
+      "type": "strength",
+      "muscleGroup": "lats",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          68,
+          77,
+          85,
+          102,
+          117,
+          130,
+          143,
+          155,
+          164,
+          173,
+          183,
+          194,
+          204,
+          215,
+          226,
+          237,
+          248,
+          259
+        ]
+      }
+    },
+    {
+      "name": "Rotary Calf",
+      "type": "strength",
+      "muscleGroup": [
+        "calf",
+        "legs"
+      ],
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "seat": {
+        "min": 1,
+        "max": 11,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          70,
+          104,
+          138,
+          172,
+          206,
+          240,
+          274,
+          308,
+          342,
+          376,
+          410,
+          444,
+          478,
+          512,
+          546,
+          580,
+          614,
+          648
+        ]
+      }
+    },
+    {
+      "name": "Glute Master",
+      "type": "strength",
+      "muscleGroup": "glutes",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          8,
+          18,
+          28,
+          38,
+          48,
+          58,
+          68,
+          78,
+          88,
+          98,
+          108,
+          118,
+          128,
+          138,
+          148,
+          158,
+          168,
+          178
+        ]
+      }
+    },
+    {
+      "name": "Low Back",
+      "type": "strength",
+      "muscleGroup": "back",
+      "brand": "Hoist",
+      "productLine": "ROC-IT",
+      "footPlate": {
+        "min": 1,
+        "max": 6,
+        "step": 1
+      },
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "numbered",
+        "custom": null,
+        "numbered": [
+          24,
+          50,
+          76,
+          100,
+          124,
+          150,
+          174,
+          200,
+          224,
+          250,
+          274,
+          300,
+          324,
+          350,
+          374,
+          400,
+          424,
+          450
+        ]
+      }
+    },
+    {
+      "name": "Back Hyperextension w/weights",
+      "type": "strength",
+      "muscleGroup": ["back", "glutes", "ham"],
+      "brand": "Body Masters",
+      "weightStack": {
+        "min": null,
+        "max": null,
+        "step": null,
+        "type": "plated",
+        "custom": null,
+        "numbered": null
+      }
+    },
+    {
+      "name": "Back Hyperextension",
+      "type": "freeform",
+      "muscleGroup": "back",
+      "brand": "Body Masters"
+    },
+    {
+      "name": "Balance Board",
+      "type": "freeform",
+      "muscleGroup": "multiple"
+    },
+    {
+      "name": "Crunches",
+      "type": "freeform",
+      "muscleGroup": "abs"
+    },
+    {
+      "name": "Foam Roller",
+      "type": "freeform",
+      "muscleGroup": "multiple"
+    },
+    {
+      "name": "Medicine Ball",
+      "type": "freeform",
+      "muscleGroup": "multiple"
+    },
+    {
+      "name": "Pull Ups",
+      "type": "freeform",
+      "muscleGroup": "abs"
+    },
+    {
+      "name": "Push Ups",
+      "type": "freeform",
+      "muscleGroup": [
+        "triceps",
+        "chest",
+        "front deltoids",
+        "abs",
+        "biceps",
+        "obliques"
+      ]
+    },
+    {
+      "name": "Reverse Crunches",
+      "type": "freeform",
+      "muscleGroup": [
+        "lower back",
+        "back",
+        "calves",
+        "glutes"
+      ]
+    },
+    {
+      "name": "Stability Ball",
+      "type": "freeform",
+      "muscleGroup": "multiple"
+    },
+    {
+      "name": "Wall Ball",
+      "type": "freeform",
+      "muscleGroup": "arms"
+    },
+    {
+      "name": "Ab Roller",
+      "type": "freeform",
+      "muscleGroup": "abs"
+    }
+  ],
+  "dumbellWeightRange": [
+    5,
+    7.5,
+    10,
+    12.5,
+    15,
+    17.5,
+    20,
+    22.5,
+    25,
+    27.5,
+    30,
+    32.5,
+    35,
+    37.5,
+    40,
+    42.5,
+    45,
+    47.5,
+    50,
+    52.5,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85,
+    95,
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180
+  ],
+  "plateWeightRange": [
+    2.5,
+    5,
+    10,
+    25,
+    35,
+    45
+  ],
+  "barbellWeightRange": [],
+  "kettlebell": [
+    {
+        "brand":"rkc",
+        "weightRange": [
+            10,
+            14,
+            18,
+            22,
+            26,
+            31,
+            35,
+            40,
+            44,
+            48,
+            53,
+            57,
+            62,
+            66,
+            70,
+            79,
+            88,
+            97,
+            106,
+            132
+        ]
+    },
+    {
+        "brand": "hampton",
+        "weightRange": [
+            5,
+            10,
+            15,
+            20,
+            25,
+            30,
+            35,
+            40,
+            45,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100
+        ]
+    },
+    {
+        "brand": "combined", 
+        "weightRange": [
+            5,
+            10,
+            14,
+            15,
+            18,
+            20,
+            22,
+            25,
+            26,
+            30,
+            31,
+            35,
+            40,
+            44,
+            45,
+            48,
+            50,
+            53,
+            57,
+            60,
+            62,
+            66,
+            70,
+            79,
+            80,
+            88,
+            90,
+            97,
+            100,
+            106,
+            132
+        ]
+    }
+  ]
+}
